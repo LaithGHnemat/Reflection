@@ -2,6 +2,7 @@ package javaReflection.chapter2.ex4;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FieldInspector {
@@ -12,7 +13,7 @@ public class FieldInspector {
 
         for (Field field : fields) {
             try {
-                field.setAccessible(true); // يسمح بالوصول حتى للحقول الخاصة
+                field.setAccessible(true);
 
                 String fieldName = field.getName();
                 String declaringClass = field.getDeclaringClass().getName();
@@ -37,9 +38,7 @@ public class FieldInspector {
 
         while (cls != null) {
             Field[] declaredFields = cls.getDeclaredFields();
-            for (Field f : declaredFields) {
-                fieldList.add(f);
-            }
+            fieldList.addAll(Arrays.asList(declaredFields));
             cls = cls.getSuperclass();
         }
 
