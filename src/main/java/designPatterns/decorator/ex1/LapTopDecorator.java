@@ -1,4 +1,4 @@
-package designPatterns.decorator;
+package designPatterns.decorator.ex1;
 
 public class LapTopDecorator implements LabTop{
 

@@ -18,10 +18,9 @@ public class MemoryLeakInspector {
         Object dataToLeak = new String("I should be garbage collected!");
         LeakyClass leaky = new LeakyClass(new Object(), dataToLeak);
 
-        // فحص جميع الحقول داخل الكائن
         Field[] fields = LeakyClass.class.getDeclaredFields();
         for (Field field : fields) {
-            field.setAccessible(true); // السماح بالوصول للحقول الخاصة
+            field.setAccessible(true);
             Object value = field.get(leaky);
 
             if (value == dataToLeak) {

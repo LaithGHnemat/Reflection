@@ -1,6 +1,6 @@
-package designPatterns.decorator;
+package designPatterns.decorator.ex1;
 
-public class Executor {
+public class TestOne {
 
     public static void main(String[] args) {
         LabTop basicLab = new Ram(new SSD(new BasicLapTop() ));

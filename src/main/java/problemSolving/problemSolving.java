@@ -10,7 +10,6 @@ public class problemSolving {
         int rusult=16;
         System.out.println(hasPairWithSum(rusult));
 
-
     }
 
     private static boolean hasPairWithSum(int rusult) {

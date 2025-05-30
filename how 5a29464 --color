@@ -1,0 +1,12 @@
+[33mcommit 5a29464f6992c83abd811b8468832c3aeefdadfc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Laith Ghnemat <laithghnemat4@gmail.com>
+Date:   Sun May 25 15:51:16 2025 +0300
+
+    Enhance Deserializer
+
+pom.xml
+src/main/java/designPatterns/adapter/Bicycle.java
+src/main/java/javaReflection/chapter2/ex4/FieldInspector.java
+src/main/java/javaReflection/chapter3/ex2/Deserializer.java
+src/main/java/problemSolving/problemSolving.java
+src/main/java/solid/dependencyInjection/Main.java
