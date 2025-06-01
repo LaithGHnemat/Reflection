@@ -13,5 +13,5 @@ public class EmployeeViolated {
     public void print() {
         System.out.println("Employee: " + name + ", ID: " + id);
     }
-     // note : this is Violated SRP cuse its do more than one thing
+     // note : this is Violated SRP cause its do more than one thing
 }
