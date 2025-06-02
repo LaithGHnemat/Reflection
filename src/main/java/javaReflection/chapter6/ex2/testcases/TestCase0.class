@@ -1,0 +1,4 @@
+package javaReflection.chapter6.ex2.testcases
+
+class TestCase0 {
+}
