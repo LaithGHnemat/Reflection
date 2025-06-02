@@ -1,6 +1,4 @@
-package solid.dependencyInjection;
-
-import java.util.List;
+package solid.dependencyInversion;
 
 public class Main {
     public static void main(String[] args) {

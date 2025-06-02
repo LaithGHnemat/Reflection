@@ -1,4 +1,4 @@
-package solid.dependencyInjection;
+package solid.dependencyInversion;
 
 import java.util.Collections;
 import java.util.List;
